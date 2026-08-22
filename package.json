@@ -1,0 +1,55 @@
+{
+  "name": "national-bank-of-serbia-exchange-rate",
+  "version": "1.2.7",
+  "description": "Official National Bank of Serbia (Serbia) daily exchange rates — 24 currencies vs RSD, history since 2016. Zero-dependency Node.js/TypeScript client.",
+  "keywords": [
+    "nbs",
+    "national",
+    "bank",
+    "of",
+    "serbia",
+    "exchange-rate",
+    "exchange-rates",
+    "currency",
+    "forex",
+    "fx",
+    "rsd",
+    "central-bank",
+    "official-rates",
+    "serbia",
+    "api",
+    "typescript"
+  ],
+  "homepage": "https://allratestoday.com/central-bank-rates-api/nbs/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AllRates-Today/national-bank-of-serbia-exchange-rate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AllRates-Today/national-bank-of-serbia-exchange-rate/issues"
+  },
+  "license": "MIT",
+  "author": "AllRatesToday <hello@allratestoday.com> (https://allratestoday.com)",
+  "type": "module",
+  "main": "./index.cjs",
+  "module": "./index.mjs",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "require": "./index.cjs"
+    }
+  },
+  "files": [
+    "index.mjs",
+    "index.cjs",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "sideEffects": false
+}
