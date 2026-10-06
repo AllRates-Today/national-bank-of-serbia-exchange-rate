@@ -85,10 +85,10 @@ const pair = await getRate('EUR', 'RSD', { apiKey: 'art_live_...' });
 {
   bank: 'nbs',
   name: 'National Bank of Serbia',
-  rate_date: '2026-09-25',   // National Bank of Serbia's own publication date
+  rate_date: '2026-10-06',   // National Bank of Serbia's own publication date
   source: 'EUR',
   target: 'RSD',
-  rate: 117.4831,
+  rate: 117.4601,
   rate_type: 'middle',
   derived: false,
   method: 'published',
@@ -113,9 +113,9 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'nbs',
   name: 'National Bank of Serbia',
-  rate_date: '2026-09-25',
+  rate_date: '2026-10-06',
   rates: [
-    { "base": "EUR", "quote": "RSD", "type": "middle", "value": 117.4831 },
+    { "base": "EUR", "quote": "RSD", "type": "middle", "value": 117.4601 },
     // … the rest of the published table (24 currencies vs RSD)
   ],
   disclaimer: '…'
@@ -155,7 +155,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'national-bank-of-serbia-exchange-rate';
 
 const series = await getHistory(
-  { source: 'EUR', target: 'RSD', from: '2026-01-01', to: '2026-09-25' },
+  { source: 'EUR', target: 'RSD', from: '2026-01-01', to: '2026-10-06' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -168,11 +168,11 @@ const series = await getHistory(
   source: 'EUR',
   target: 'RSD',
   from: '2026-01-01',
-  to: '2026-09-25',
+  to: '2026-10-06',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-09-25', rate: 117.4831, rate_type: 'middle', derived: false, method: 'published' },
+    { date: '2026-10-06', rate: 117.4601, rate_type: 'middle', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
