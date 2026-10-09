@@ -4,6 +4,8 @@
 [![license](https://img.shields.io/npm/l/national-bank-of-serbia-exchange-rate.svg)](https://github.com/AllRates-Today/national-bank-of-serbia-exchange-rate/blob/main/LICENSE)
 [![zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](https://www.npmjs.com/package/national-bank-of-serbia-exchange-rate)
 [![TypeScript](https://img.shields.io/badge/TypeScript-types%20included-3178C6.svg)](https://www.typescriptlang.org/)
+[![EUR/RSD today](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fnbs%3Fsource%3DEUR%26target%3DRSD&query=%24.rate&label=EUR%2FRSD%20published%20by%20National%20Bank%20of%20Serbia&color=0A7E8C&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/nbs/)
+[![rate date](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fnbs%3Fsource%3DEUR%26target%3DRSD&query=%24.rate_date&label=rate%20date&color=555&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/nbs/)
 
 **Official National Bank of Serbia (Serbia) daily exchange rates for Node.js and TypeScript. The published central bank rates behind tax filings, customs valuations, audits, and compliant invoicing — not market estimates, but the numbers National Bank of Serbia itself prints, every business day.**
 
@@ -32,6 +34,54 @@ console.log(r.rate_date, r.rates.length); // the central bank's latest published
 ```
 
 The open endpoint serves the *latest* table only and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables, history, and CSV/XML/Excel output.
+
+## 📈 Latest published table
+
+Today's full National Bank of Serbia table, straight from the central bank's latest publication. On GitHub it is refreshed by [a daily Action](.github/workflows/daily-table.yml) that reads the keyless endpoint above and commits only when the central bank publishes a new table; the copy on npm is as of the package's publish date.
+
+<!-- daily-table:start -->
+Published **2026-10-09** by National Bank of Serbia — 35 rates. Updated 2026-10-09.
+
+| Base | Quote | Type | Rate |
+| --- | --- | --- | ---: |
+| AED | RSD | middle | 28.4502 |
+| ATS | RSD | middle | 8.5293 |
+| AUD | RSD | middle | 72.9342 |
+| BAM | RSD | middle | 60.0081 |
+| BEF | RSD | middle | 2.90942 |
+| BYN | RSD | middle | 34.2304 |
+| CAD | RSD | middle | 73.519 |
+| CHF | RSD | middle | 125.7939 |
+| CNY | RSD | middle | 15.6028 |
+| CZK | RSD | middle | 4.8142 |
+| DEM | RSD | middle | 60.0081 |
+| DKK | RSD | middle | 15.6992 |
+| ESP | RSD | middle | 0.705382 |
+| EUR | RSD | middle | 117.3657 |
+| FIM | RSD | middle | 19.7395 |
+| FRF | RSD | middle | 17.8923 |
+| GBP | RSD | middle | 138.354 |
+| GRD | RSD | middle | 0.344433 |
+| HUF | RSD | middle | 0.321163 |
+| IEP | RSD | middle | 149.0237 |
+| INR | RSD | middle | 1.0819 |
+| ITL | RSD | middle | 0.060614 |
+| JPY | RSD | middle | 0.660768 |
+| KWD | RSD | middle | 339.0113 |
+| LUF | RSD | middle | 2.90942 |
+| MKD | RSD | middle | 1.893 |
+| NOK | RSD | middle | 10.9425 |
+| PLN | RSD | middle | 26.8026 |
+| PTE | RSD | middle | 0.585418 |
+| RON | RSD | middle | 21.9387 |
+| RUB | RSD | middle | 1.2268 |
+| SEK | RSD | middle | 10.497 |
+| TRY | RSD | middle | 2.1184 |
+| USD | RSD | middle | 104.483 |
+| XDR | RSD | middle | 141.2443 |
+
+Source: [Official rates published by NBS, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/nbs/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
+<!-- daily-table:end -->
 
 ## 🔑 Get your API key
 
