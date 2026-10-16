@@ -42,45 +42,45 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-15** by National Bank of Serbia — 35 rates. Updated 2026-10-15.
+Published **2026-10-16** by National Bank of Serbia — 35 rates. Updated 2026-10-16.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | RSD | middle | 28.5004 |
-| ATS | RSD | middle | 8.5313 |
-| AUD | RSD | middle | 72.7703 |
-| BAM | RSD | middle | 60.0221 |
-| BEF | RSD | middle | 2.910099 |
-| BYN | RSD | middle | 34.5762 |
-| CAD | RSD | middle | 73.6561 |
-| CHF | RSD | middle | 126.0665 |
-| CNY | RSD | middle | 15.6395 |
-| CZK | RSD | middle | 4.8175 |
-| DEM | RSD | middle | 60.0221 |
-| DKK | RSD | middle | 15.7031 |
-| ESP | RSD | middle | 0.705547 |
-| EUR | RSD | middle | 117.3931 |
-| FIM | RSD | middle | 19.7441 |
-| FRF | RSD | middle | 17.8965 |
-| GBP | RSD | middle | 138.6151 |
-| GRD | RSD | middle | 0.344514 |
-| HUF | RSD | middle | 0.322402 |
-| IEP | RSD | middle | 149.0585 |
+| AED | RSD | middle | 28.4723 |
+| ATS | RSD | middle | 8.5318 |
+| AUD | RSD | middle | 72.6036 |
+| BAM | RSD | middle | 60.0257 |
+| BEF | RSD | middle | 2.91027 |
+| BYN | RSD | middle | 34.5091 |
+| CAD | RSD | middle | 73.7391 |
+| CHF | RSD | middle | 126.4269 |
+| CNY | RSD | middle | 15.6317 |
+| CZK | RSD | middle | 4.821 |
+| DEM | RSD | middle | 60.0257 |
+| DKK | RSD | middle | 15.7032 |
+| ESP | RSD | middle | 0.705588 |
+| EUR | RSD | middle | 117.4 |
+| FIM | RSD | middle | 19.7453 |
+| FRF | RSD | middle | 17.8975 |
+| GBP | RSD | middle | 139.0501 |
+| GRD | RSD | middle | 0.344534 |
+| HUF | RSD | middle | 0.322297 |
+| IEP | RSD | middle | 149.0673 |
 | INR | RSD | middle | 1.1024 |
-| ITL | RSD | middle | 0.060628 |
-| JPY | RSD | middle | 0.662789 |
-| KWD | RSD | middle | 339.6791 |
-| LUF | RSD | middle | 2.910099 |
-| MKD | RSD | middle | 1.8867 |
-| NOK | RSD | middle | 11.0245 |
-| PLN | RSD | middle | 26.8616 |
-| PTE | RSD | middle | 0.585554 |
-| RON | RSD | middle | 21.992 |
-| RUB | RSD | middle | 1.2517 |
-| SEK | RSD | middle | 10.5001 |
-| TRY | RSD | middle | 2.1182 |
-| USD | RSD | middle | 104.6564 |
-| XDR | RSD | middle | 141.5834 |
+| ITL | RSD | middle | 0.060632 |
+| JPY | RSD | middle | 0.662416 |
+| KWD | RSD | middle | 339.3064 |
+| LUF | RSD | middle | 2.91027 |
+| MKD | RSD | middle | 1.8935 |
+| NOK | RSD | middle | 11.0554 |
+| PLN | RSD | middle | 26.8552 |
+| PTE | RSD | middle | 0.585589 |
+| RON | RSD | middle | 21.9974 |
+| RUB | RSD | middle | 1.2464 |
+| SEK | RSD | middle | 10.5203 |
+| TRY | RSD | middle | 2.1116 |
+| USD | RSD | middle | 104.56 |
+| XDR | RSD | middle | 141.5742 |
 
 Source: [Official rates published by NBS, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/nbs/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
