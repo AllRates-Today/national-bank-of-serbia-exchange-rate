@@ -33,54 +33,57 @@ const r = await fetch('https://allratestoday.com/api/open/central-bank/nbs').the
 console.log(r.rate_date, r.rates.length); // the central bank's latest published table, no key
 ```
 
-The open endpoint serves the *latest* table only and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables, history, and CSV/XML/Excel output.
+The open endpoint serves the *latest* table only (JSON by default; add `?format=csv`, `xml` or `xlsx` for a file) and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables and history.
 
 ## 📈 Latest published table
 
 [![Latest National Bank of Serbia table](https://allratestoday.com/api/open/central-bank/nbs/table.svg)](https://allratestoday.com/central-bank-rates-api/nbs/)
 
-The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
+The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-16** by National Bank of Serbia — 35 rates. Updated 2026-10-16.
+<details>
+<summary>Table as text: published 2026-10-19 by National Bank of Serbia — 35 rates. Updated 2026-10-19.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | RSD | middle | 28.4723 |
-| ATS | RSD | middle | 8.5318 |
-| AUD | RSD | middle | 72.6036 |
-| BAM | RSD | middle | 60.0257 |
-| BEF | RSD | middle | 2.91027 |
-| BYN | RSD | middle | 34.5091 |
-| CAD | RSD | middle | 73.7391 |
-| CHF | RSD | middle | 126.4269 |
-| CNY | RSD | middle | 15.6317 |
-| CZK | RSD | middle | 4.821 |
-| DEM | RSD | middle | 60.0257 |
-| DKK | RSD | middle | 15.7032 |
-| ESP | RSD | middle | 0.705588 |
-| EUR | RSD | middle | 117.4 |
-| FIM | RSD | middle | 19.7453 |
-| FRF | RSD | middle | 17.8975 |
-| GBP | RSD | middle | 139.0501 |
-| GRD | RSD | middle | 0.344534 |
-| HUF | RSD | middle | 0.322297 |
-| IEP | RSD | middle | 149.0673 |
+| AED | RSD | middle | 28.4639 |
+| ATS | RSD | middle | 8.5326 |
+| AUD | RSD | middle | 72.8853 |
+| BAM | RSD | middle | 60.0312 |
+| BEF | RSD | middle | 2.91054 |
+| BYN | RSD | middle | 34.737 |
+| CAD | RSD | middle | 74.0296 |
+| CHF | RSD | middle | 126.8073 |
+| CNY | RSD | middle | 15.6446 |
+| CZK | RSD | middle | 4.8236 |
+| DEM | RSD | middle | 60.0312 |
+| DKK | RSD | middle | 15.705 |
+| ESP | RSD | middle | 0.705654 |
+| EUR | RSD | middle | 117.4109 |
+| FIM | RSD | middle | 19.7471 |
+| FRF | RSD | middle | 17.8992 |
+| GBP | RSD | middle | 139.3601 |
+| GRD | RSD | middle | 0.344566 |
+| HUF | RSD | middle | 0.32366 |
+| IEP | RSD | middle | 149.0811 |
 | INR | RSD | middle | 1.1024 |
-| ITL | RSD | middle | 0.060632 |
-| JPY | RSD | middle | 0.662416 |
-| KWD | RSD | middle | 339.3064 |
-| LUF | RSD | middle | 2.91027 |
-| MKD | RSD | middle | 1.8935 |
-| NOK | RSD | middle | 11.0554 |
-| PLN | RSD | middle | 26.8552 |
-| PTE | RSD | middle | 0.585589 |
-| RON | RSD | middle | 21.9974 |
-| RUB | RSD | middle | 1.2464 |
-| SEK | RSD | middle | 10.5203 |
-| TRY | RSD | middle | 2.1116 |
-| USD | RSD | middle | 104.56 |
-| XDR | RSD | middle | 141.5742 |
+| ITL | RSD | middle | 0.060638 |
+| JPY | RSD | middle | 0.661172 |
+| KWD | RSD | middle | 339.3379 |
+| LUF | RSD | middle | 2.91054 |
+| MKD | RSD | middle | 1.9005 |
+| NOK | RSD | middle | 11.0841 |
+| PLN | RSD | middle | 26.8509 |
+| PTE | RSD | middle | 0.585643 |
+| RON | RSD | middle | 22.0333 |
+| RUB | RSD | middle | 1.254 |
+| SEK | RSD | middle | 10.5477 |
+| TRY | RSD | middle | 2.1096 |
+| USD | RSD | middle | 104.5418 |
+| XDR | RSD | middle | 141.8068 |
+
+</details>
 
 Source: [Official rates published by NBS, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/nbs/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
@@ -353,7 +356,8 @@ Need the whole archive rather than an API call? The same published tables are mi
 - [All central bank sources](https://allratestoday.com/central-bank-rates-api/)
 - [Package docs on the site](https://allratestoday.com/docs/sdk/national-bank-of-serbia-exchange-rate/) · [ERP integration guides](https://allratestoday.com/docs/integrations/)
 - [API documentation](https://allratestoday.com/docs/#central-bank) · [Interactive reference](https://allratestoday.com/api-reference/) · [Methodology](https://allratestoday.com/official-rates-methodology/)
-- [Register (free)](https://allratestoday.com/register) · [Pricing](https://allratestoday.com/pricing/)
+- [Register (Free)](https://allratestoday.com/register) · [Dashboard](https://allratestoday.com/profile) · [Pricing](https://allratestoday.com/pricing/)
+- [Status](https://allratestoday.com/status)
 - [GitHub](https://github.com/AllRates-Today/national-bank-of-serbia-exchange-rate)
 
 ## 📜 License
