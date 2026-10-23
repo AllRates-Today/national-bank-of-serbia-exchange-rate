@@ -47,45 +47,45 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-22 by National Bank of Serbia — 35 rates. Updated 2026-10-22.</summary>
+<summary>Table as text: published 2026-10-23 by National Bank of Serbia — 35 rates. Updated 2026-10-23.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | RSD | middle | 28.4454 |
-| ATS | RSD | middle | 8.5355 |
-| AUD | RSD | middle | 73.2878 |
-| BAM | RSD | middle | 60.0517 |
-| BEF | RSD | middle | 2.911534 |
-| BYN | RSD | middle | 35.0872 |
-| CAD | RSD | middle | 74.4444 |
-| CHF | RSD | middle | 126.9466 |
-| CNY | RSD | middle | 15.6518 |
-| CZK | RSD | middle | 4.837 |
-| DEM | RSD | middle | 60.0517 |
-| DKK | RSD | middle | 15.7104 |
-| ESP | RSD | middle | 0.705895 |
-| EUR | RSD | middle | 117.451 |
-| FIM | RSD | middle | 19.7538 |
-| FRF | RSD | middle | 17.9053 |
-| GBP | RSD | middle | 139.9392 |
-| GRD | RSD | middle | 0.344684 |
-| HUF | RSD | middle | 0.321045 |
-| IEP | RSD | middle | 149.132 |
-| INR | RSD | middle | 1.1052 |
-| ITL | RSD | middle | 0.060658 |
-| JPY | RSD | middle | 0.662517 |
-| KWD | RSD | middle | 339.1597 |
-| LUF | RSD | middle | 2.911534 |
-| MKD | RSD | middle | 1.895 |
-| NOK | RSD | middle | 11.1555 |
-| PLN | RSD | middle | 26.9426 |
-| PTE | RSD | middle | 0.585843 |
-| RON | RSD | middle | 21.9962 |
-| RUB | RSD | middle | 1.2818 |
-| SEK | RSD | middle | 10.56 |
-| TRY | RSD | middle | 2.1052 |
-| USD | RSD | middle | 104.4566 |
-| XDR | RSD | middle | 141.6546 |
+| AED | RSD | middle | 28.5345 |
+| ATS | RSD | middle | 8.5378 |
+| AUD | RSD | middle | 73.4218 |
+| BAM | RSD | middle | 60.0677 |
+| BEF | RSD | middle | 2.912308 |
+| BYN | RSD | middle | 35.4182 |
+| CAD | RSD | middle | 74.7818 |
+| CHF | RSD | middle | 127.5179 |
+| CNY | RSD | middle | 15.7047 |
+| CZK | RSD | middle | 4.8366 |
+| DEM | RSD | middle | 60.0677 |
+| DKK | RSD | middle | 15.7165 |
+| ESP | RSD | middle | 0.706082 |
+| EUR | RSD | middle | 117.4822 |
+| FIM | RSD | middle | 19.7591 |
+| FRF | RSD | middle | 17.91 |
+| GBP | RSD | middle | 140.294 |
+| GRD | RSD | middle | 0.344775 |
+| HUF | RSD | middle | 0.320552 |
+| IEP | RSD | middle | 149.1716 |
+| INR | RSD | middle | 1.1046 |
+| ITL | RSD | middle | 0.060674 |
+| JPY | RSD | middle | 0.66755 |
+| KWD | RSD | middle | 340.2323 |
+| LUF | RSD | middle | 2.912308 |
+| MKD | RSD | middle | 1.8967 |
+| NOK | RSD | middle | 11.2302 |
+| PLN | RSD | middle | 26.8249 |
+| PTE | RSD | middle | 0.585999 |
+| RON | RSD | middle | 21.9462 |
+| RUB | RSD | middle | 1.2796 |
+| SEK | RSD | middle | 10.5643 |
+| TRY | RSD | middle | 2.1086 |
+| USD | RSD | middle | 104.8012 |
+| XDR | RSD | middle | 142.1083 |
 
 </details>
 
